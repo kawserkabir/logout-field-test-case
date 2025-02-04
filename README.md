@@ -94,14 +94,4 @@ This document provides detailed test cases for verifying the functionality of th
 1. Inspect the logout button's design and placement.
 2. Test keyboard accessibility and screen reader compatibility.
 **Expected Result**: The logout button/link should be properly styled, accessible via keyboard navigation, and compatible with screen readers.
-
----
-
-## Test Case 10: Security Validation on Logout
-**Test Case ID**: TC_LOGOUT_10  
-**Objective**: Verify security aspects of the logout functionality.  
-**Steps**:  
-1. Log in to the application.
-2. Log out.
-3. Attempt to access protected APIs or endpoints using previously issued tokens.
-**Expected Result**: The server should reject any requests using invalid or expired tokens after logout.
+f
